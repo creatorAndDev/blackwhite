@@ -1113,7 +1113,7 @@ input.placeholder, textarea.placeholder {
 	height: 100%;
 }
 .card_post .avatar .svg_icon {
-	font-size: 20px;
+	font-size: 14px;
 	color: var(--color);
 }
 .card_post .avatar img{
