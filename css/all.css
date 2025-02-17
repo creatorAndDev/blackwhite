@@ -1018,10 +1018,15 @@ input.placeholder, textarea.placeholder {
 	background-color: var(--bg-general-primary-light);
 	border-radius: 8px;
 	padding: 10px 15px;
-	font-size: 14px;
+	font-size: 18px;
 	color: var(--color-white);
 	display: flex;
 	align-items: center;
+}
+@media screen and (max-width: 860px) {
+	.notify .hold {
+		font-size: 14px;
+	}
 }
 .notify span{
 	flex-shrink: 1;
